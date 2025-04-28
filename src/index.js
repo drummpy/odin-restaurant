@@ -1,6 +1,7 @@
 import "./styles.css";
 import { showHome } from "./home";
 import { showMenu } from "./menu";
+import { showContact } from "./contact";
 
 const homebutton = document.getElementById("buttonhome");
 const menubutton = document.getElementById("buttonmenu");
@@ -25,6 +26,8 @@ menubutton.addEventListener("click", () => {
 
 contactbutton.addEventListener("click", () => {
   console.log("Conact Button Pressed");
+  clearContent();
+  showContact(content);
 });
 
 showHome(content);
