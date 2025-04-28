@@ -1,15 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
 
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman", system-ui, "Segoe UI", Roboto, Helvetica,
+  font-family: "Cormorant Garamond", system-ui, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-color: #ffffff;
   color: #455a64;
   line-height: 1.5;
 }
+
+/* .cormorant-garamond-<uniquifier> {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
 
 .ms-madi-regular {
   font-family: "Ms Madi", cursive;
