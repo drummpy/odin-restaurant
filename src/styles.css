@@ -4,10 +4,11 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Times New Roman", system-ui, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-color: #ffffff;
   color: #455a64;
+  line-height: 1.5;
 }
 
 .ms-madi-regular {
@@ -53,6 +54,7 @@ button {
   position: relative;
   width: 80%;
   max-width: 1200px;
+  min-width: 575px;
   margin: 100px auto;
   padding-top: 100px;
   background-size: cover;
@@ -138,4 +140,59 @@ button {
 
 .footer-text a:hover {
   color: #f9a825;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 100px auto; /* center horizontally with margin */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Left Side - Image */
+.menu-image {
+  flex: 1;
+  min-width: 300px;
+  height: 400px;
+  margin-right: 1rem;
+}
+
+.menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Right Side - Text Content */
+.menu-content {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.menu-content h1 {
+  margin: 0;
+  font-size: 3rem;
+  color: #333;
+  font-family: "Ms Madi";
+}
+
+.menu-content h2 {
+  font-size: 2.2rem;
+  font-family: "Ms Madi";
+  border-bottom: 1px solid;
+}
+
+.menu-content p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 1rem;
 }
