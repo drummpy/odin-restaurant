@@ -100,3 +100,42 @@ button {
   font-size: 1rem;
   color: #455a64;
 }
+
+.footer {
+  background-color: #b1b1b1;
+  border-top: 3px double #000000;
+  padding: 1rem 0;
+  position: relative;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer-logo h3 {
+  font-family: "Ms Madi", cursive;
+  font-size: 2.5rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.footer-text p {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+  color: white;
+}
+
+.footer-text a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  color: #f9a825;
+}

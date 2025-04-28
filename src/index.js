@@ -24,4 +24,5 @@ contactbutton.addEventListener("click", () => {
   console.log("Conact Button Pressed");
 });
 
+showHome(content);
 console.log("Hello, world!");
